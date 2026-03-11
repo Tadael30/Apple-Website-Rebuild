@@ -1,0 +1,283 @@
+/* header */
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.myheader {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);       
+    padding-bottom: 10px;
+
+    margin-bottom: 40px;
+    
+}
+.myheader ul li {
+    margin:10px 0 0 ;
+    list-style: none;
+}
+.nav-lin img{
+    width: 1.5rem;
+}
+
+/* hero */
+.hero-section{
+    background-image: url(../resources/images/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+   margin-top: 61px;
+    
+}
+.learn{
+
+    padding: 7px 20px;
+    background-color: #0071E3;
+    display: inline-block;
+    
+    
+}
+.Buy{
+    
+    padding: 3px 20px;
+    display: inline-block;
+    
+}
+.cta div{
+    border: 1px solid #0071E3;
+    border-radius: 20px;
+    font-size: 300;
+    margin: 0 auto;
+    
+}
+.cta{
+    gap:0.2rem;
+    margin: 0 auto;
+}
+.cta a {
+text-align: center;
+text-decoration: none;
+color: #fff;
+
+}
+.Buy a{
+    color:  #0071E3;
+}
+.learn:hover{
+    color: rgb(252, 224, 182);
+}
+.Buy:hover {
+    background-color: #0071E3;
+    
+}
+.Buy:hover a{
+    
+    color: #fff;
+}
+
+/* iphone-section */
+.iphone-section{
+     background-image: url(../resources/images/hero_iphone_family__fuz5j2v5xx6y_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+    
+}
+
+/* ipadAir-section */
+.ipadAir-section{
+     background-image: url(../resources/images/hero_ipad_air_avail__c34ycq52exg2_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+    
+}
+
+/* fitness */
+.fitness{
+     background-image: url(../resources/images/promo_apple_fitness_plus_ny__di8hyqkgekya_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+    
+}
+
+/* Mac */
+.Mac{
+    background-image: url(../resources/images/promo_macbook_pro_m5__gnwzdhijhm6a_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+    
+}
+
+/* watch */
+.watch{
+    background-image: url(../resources/images/promo_apple_watch_ultra3__bwvslhbxx99e_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+/* Airpod */
+.Airpod{
+    background-image: url(../resources/images/promo_airpodspro_3__f6xmza7bglei_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+/* Tradein */
+.Tradein{
+    background-image: url(../resources/images/promo_iphone_tradein__bugw15ka691e_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+/* Card */
+.card{
+    background-image: url(../resources/images/promo_apple_card__5cm7draujpey_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+.navtext {
+    display: none;
+}
+
+
+
+
+/* media query */
+@media (min-width:992px){
+   .navtext{
+    display: block;
+    
+   
+}
+.hamburger{
+    display: none;
+} 
+.navtext{
+    padding-top: 5px;
+}
+.nav-lin img{
+    width: 18px;
+}
+
+/* hero */
+.hero-section{
+    background-image: url(../resources/images/hero_apple_watch_ny__c8f1tzaoa72a_largetall_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+   margin-top: 61px;
+    
+}
+
+/* iphone-section */
+.iphone-section{
+     background-image: url(../resources/images/hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+    
+}
+
+/* ipadAir-section */
+.ipadAir-section{
+     background-image: url(../resources/images/hero_ipad_air_avail__c34ycq52exg2_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+    
+}
+
+/* fitness */
+.fitness{
+     background-image: url(../resources/images/promo_apple_fitness_plus_ny__di8hyqkgekya_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+    
+}
+
+/* Mac */
+.Mac{
+    background-image: url(../resources/images/promo_macbook_pro_m5__gnwzdhijhm6a_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+    
+}
+
+/* watch */
+.watch{
+    background-image: url(../resources/images/promo_apple_watch_ultra3__bwvslhbxx99e_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+/* Airpod */
+.Airpod{
+    background-image: url(../resources/images/promo_airpodspro_3__f6xmza7bglei_large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+/* Tradein */
+.Tradein{
+    background-image: url(../resources/images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+/* Card */
+.card{
+    background-image: url(../resources/images/promo_apple_card__5cm7draujpey_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 520px;
+}
+
+}
